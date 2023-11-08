@@ -1,0 +1,82 @@
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+    .brand-container {
+        display: none;
+    }
+
+    .more-brand {
+        display: none;
+    }
+
+    .grid-container__notebook {
+        display: none;
+    }
+
+    .grid-container__desktop {
+        display: none;
+    }
+
+
+    .info-company-desktop {
+        display: none;
+    }
+
+    .range-menu-desktop {
+        display: none;
+    }
+
+    h1 {
+        font-family: 'TTLakes Bold', sans-serif;
+    }
+
+
+    .brand-content {
+        margin-top: 24px;
+        border-top: solid 1px #D9FFF5;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+    }
+
+    .brand-content p {
+        padding: 16px 16px 16px 20px;
+        margin: 0 0 16px;
+    }
+
+
+    .swiper-container__mobile {
+        position: relative;
+        overflow: hidden;
+        margin-left: 16px;
+    }
+
+    .swiper-wrapper {
+        position: relative;
+        width: 100%;
+    }
+
+    .swiper-slide {
+        width: 80%;
+    }
+
+    .swiper-slide-next {
+        filter: blur(1px);
+
+    }
+
+    .swiper-pagination {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .swiper-pagination-bullet {
+        background-color: #34343d;
+        width: 10px;
+        height: 10px;
+    }
+
+    .swiper-pagination-bullet-active {
+        background: #B5B6BC;
+    }
+
+}

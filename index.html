@@ -2,13 +2,131 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- FONTS -->
+    <link href="static/fonts/TTLakes-Regular.woff">
+    <link href="static/fonts/TTLakes-Medium.woff">
+    <link href="static/fonts/TTLakes-Bold.woff">
+
+    <!-- STYLES -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     <link rel="stylesheet" href="static/style/style.css">
+    <link rel="stylesheet" href="static/style/media_mobile.css">
+    <link rel="stylesheet" href="static/style/media_notebook.css">
+    <link rel="stylesheet" href="static/style/media_desktop.css">
+
     <title>SWIPER</title>
 
 </head>
 <body>
+
+<div class="brand-container__mobile">
+    <div class="brand-content">
+        <p>РЕМОНТ ТЕХНИКИ РАЗЛИЧНЫХ БРЕНДОВ</p>
+    </div>
+    <div class="swiper-container__mobile">
+        <div class="swiper-wrapper">
+            <img class="swiper-slide" src="static/image/brands/lenovo.svg" alt="Леново">
+
+            <img class="swiper-slide" src="static/image/brands/samsung.svg" alt="Самсунг">
+
+            <img class="swiper-slide" src="static/image/brands/apple.svg" alt="Эпл">
+
+            <img class="swiper-slide" src="static/image/brands/bosch.svg" alt="Бош">
+
+            <img class="swiper-slide" src="static/image/brands/hp.svg" alt="АйчПи">
+
+            <img class="swiper-slide" src="static/image/brands/acer.svg" alt="Асер">
+
+            <img class="swiper-slide" src="static/image/brands/lenovo.svg" alt="Леново">
+
+            <img class="swiper-slide" src="static/image/brands/samsung.svg" alt="Самсунг">
+
+            <img class="swiper-slide" src="static/image/brands/apple.svg" alt="Эпл">
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+    </div>
+</div>
+
+<div class="brand-container">
+    <div class="brand-content__notebook__desktop">
+        <p>РЕМОНТ ТЕХНИКИ РАЗЛИЧНЫХ БРЕНДОВ</p>
+    </div>
+    <div class="grid-container__notebook">
+        <div class="item">
+            <img src="static/image/brands/lenovo.svg" alt="Леново">
+        </div>
+        <div class="item">
+            <img src="static/image/brands/samsung.svg" alt="Самсунг">
+        </div>
+        <div class="item">
+            <img src="static/image/brands/apple.svg" alt="Эпл">
+        </div>
+        <div class="item">
+            <img src="static/image/brands/bosch.svg" alt="Бош">
+        </div>
+        <div class="item">
+            <img src="static/image/brands/hp.svg" alt="АйчПи">
+        </div>
+        <div class="item">
+            <img src="static/image/brands/acer.svg" alt="Асер">
+        </div>
+        <div class="item hidden-item">
+            <img src="static/image/brands/apple.svg" alt="Эпл">
+        </div>
+        <div class="item hidden-item">
+            <img src="static/image/brands/apple.svg" alt="Эпл">
+        </div>
+        <div class="item hidden-item">
+            <img src="static/image/brands/apple.svg" alt="Эпл">
+        </div>
+    </div>
+
+    <div class="grid-container__desktop">
+        <div class="item">
+            <img src="static/image/brands/lenovo.svg" alt="Леново">
+        </div>
+        <div class="item">
+            <img src="static/image/brands/samsung.svg" alt="Самсунг">
+        </div>
+        <div class="item">
+            <img src="static/image/brands/apple.svg" alt="Эпл">
+        </div>
+        <div class="item">
+            <img src="static/image/brands/sonic.svg" alt="Соник">
+        </div>
+        <div class="item">
+            <img src="static/image/brands/bosch.svg" alt="Бош">
+        </div>
+        <div class="item">
+            <img src="static/image/brands/hp.svg" alt="Hp">
+        </div>
+        <div class="item">
+            <img src="static/image/brands/acer.svg" alt="Acer">
+        </div>
+        <div class="item">
+            <img src="static/image/brands/sony.svg" alt="Sony">
+        </div>
+        <div class="item hidden-item">
+            <img src="static/image/brands/apple.svg" alt="Эпл">
+        </div>
+        <div class="item hidden-item">
+            <img src="static/image/brands/apple.svg" alt="Эпл">
+        </div>
+        <div class="item hidden-item">
+            <img src="static/image/brands/apple.svg" alt="Эпл">
+        </div>
+    </div>
+
+    <div class="more-brand">
+        <img id="img" src="static/image/doubleDown.svg" alt="Две стрелочки вниз">
+        <button class="btn">Показать все</button>
+    </div>
+</div>
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="script.js"></script>

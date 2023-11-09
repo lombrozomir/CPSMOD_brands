@@ -31,6 +31,17 @@ html, body {
     overflow: hidden;
 }
 
+.brand-container {
+    font-family: 'TTLakes Regular', sans-serif;
+    color: #7E7E82;
+}
+
+.brand-container__mobile {
+    font-family: 'TTLakes Regular', sans-serif;
+    color: #7E7E82;
+}
+
+
 
 
 
